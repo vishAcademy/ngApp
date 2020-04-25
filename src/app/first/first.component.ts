@@ -11,6 +11,9 @@ linkUrl:string = "https://www.vishAcademy.com"
 linkName:string = "vishAcademy.com"
 setProps:boolean = true;
 
+labelName:string = "Email Address";
+inputValue:string = "vinay@vishacademy.com"
+
   constructor() { }
 
   ngOnInit(): void {

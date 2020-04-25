@@ -1,8 +1,19 @@
 
 
+
+<!-- Style Binding Example -->
 <h3>please visit on 
     <a  [style.color]="setProps ? '#0361ab' : '#ff6600'" 
         [href]="linkUrl" 
         [textContent]="linkName">
     </a> 
 </h3>
+
+
+<!-- String Interpolation Example -->
+<h3>Join Our Newsletter</h3>
+
+<label for="email" [textContent]="labelName"></label>
+<input type="text" id="email" [value]="inputValue"> 
+
+<button>Join</button>
